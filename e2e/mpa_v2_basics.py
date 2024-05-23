@@ -18,7 +18,7 @@ from PIL import Image
 
 import streamlit as st
 
-parent_directory = pathlib.Path(__file__).parent.parent / "multipage_apps"
+parent_directory = pathlib.Path(__file__).parent
 small_logo = Image.open(str(parent_directory / "small-streamlit.png"))
 
 logo = Image.open(str(parent_directory / "full-streamlit.png"))
